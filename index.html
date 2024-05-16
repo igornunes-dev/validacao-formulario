@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+    <link rel="stylesheet" href="src/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="formulario">
+        <form>
+          <div class="text">
+            <h1 class="title-form">Acesso</h1>
+          </div>
+          <div class="input-group">
+            <div class="input-box">
+              <label for="email">Email</label>
+              <input type="email" placeholder="contato@gmail.com" id="email" >
+              <span id="erroEmail"></span>
+            </div>
+            <div class="input-box">
+              <label for="password">Senha</label>
+              <input type="password" placeholder="Digite sua senha" id="password">
+              <span id="erroPassword"></span><br>
+              <span id="erroSymbols"></span>
+            </div>
+            <div class="input-checkbox">
+              <input type="checkbox" id="checkbox">
+              <label for="checkbox">Manter-se conectado</label>
+            </div>
+            <div class="input-box">
+             <button type="submit">Logar</button>
+            </div>
+          </div>
+          <span id="textForm"></span>
+        </form>
+        <div class="rodape-form">
+            <a href="#">Já tem conta?</a>
+            <a href="#">Conecta-se</a>
+        </div >
+      </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
