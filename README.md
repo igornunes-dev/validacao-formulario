@@ -1,6 +1,9 @@
 ## Sistema de Registro de Usuários
 O Sistema de Registro de Usuários é uma aplicação web que permite aos usuários criar contas fornecendo um e-mail e uma senha. O projeto visa criar uma experiência de registro de usuário suave e segura, garantindo que apenas informações válidas sejam registradas no sistema. A validação de e-mail e senha desempenha um papel crucial na segurança e integridade dos dados do usuário.
 
+## Visite o projeto
+https://igornunes-dev.github.io/validacao-formulario/
+
 ## Recursos Principais
 ### Tela de Registro: 
 A página inicial da aplicação apresenta um formulário de registro onde os usuários podem inserir seu e-mail e senha.
